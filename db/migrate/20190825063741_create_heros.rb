@@ -4,9 +4,8 @@ class CreateHeros < ActiveRecord::Migration[5.2]
       t.string :name
       t.integer :level
       t.integer :attack
-      t.string :defense
-      t.string :integer
-      t.string :class
+      t.integer :defense
+      t.string :heroclass
 
       t.timestamps
     end

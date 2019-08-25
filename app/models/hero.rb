@@ -1,3 +1,3 @@
 class Hero < ApplicationRecord
-    has_many :weapons
+    has_and_belongs_to_many :weapons
 end
